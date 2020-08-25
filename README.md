@@ -6,32 +6,30 @@ Requirements
 ------------
 In order to build surf you need GTK+ and Webkit/GTK+ header files.
 
-In order to use the functionality of the url-bar, also install dmenu[0].
+In order to use the functionality of the url-bar, also install [dmenu](https://tools.suckless.org/dmenu)
 
 Installation
 ------------
+As root, run:
 
-    make clean install
+    `make clean install`
 
 Running surf
 ------------
 run
-	surf [URI]
+	`surf [URI]`
 
 See the manpage for further options.
 
 Running surf in tabbed
 ----------------------
-For running surf in tabbed[1] there is a script included in the distribution,
-which is run like this:
+For running surf in [tabbed](https://tools.suckless.org/tabbed) there is a script included in the distribution, which is run like this:
 
-	surf-open.sh [URI]
+	`surf-open.sh [URI]`
 
 Further invocations of the script will run surf with the specified URI in this
 instance of tabbed.
 
-[0] http://tools.suckless.org/dmenu
-[1] http://tools.suckless.org/tabbed
 
 oqolarte's surf build includes the ff patches:
 - home page
